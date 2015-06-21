@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar" />
+
+
+    <style name="AppTheme.Video">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:padding">6dip</item>
+    </style>
+
+    <style name="AppTheme.Video.TextLabelBase">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:text">@string/loading</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="AppTheme.Video.Label" parent="AppTheme.Video.TextLabelBase">
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_marginTop">@dimen/row_video_label_margin_top</item>
+    </style>
+
+    <style name="AppTheme.Video.Label.Red" parent="AppTheme.Video.Label">
+        <item name="android:textColor">@color/red</item>
+    </style>
+
+    <style name="AppTheme.Video.Title" parent="AppTheme.Video.TextLabelBase">
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginLeft">10dip</item>
+    </style>
+
+    <style name="AppTheme.Video.Description" parent="AppTheme.Video.TextLabelBase">
+    </style>
+
+    <style name="AppTheme.Video.PlayButton">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+
+    <style name="AppTheme.Video.Thumbnail">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:src">@drawable/ic_launcher</item>
+    </style>
+
+    <style name="ActivityLocalTheme" parent="android:Theme.Holo.Light">
+        <item name="android:textColor">@color/light_blue</item>
+
+    </style>
+
+    <style name="AppTheme.Video.Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">?android:attr/listDivider</item>
+    </style>
+
+    <style name="AppTheme.Customer">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="AppTheme.Customer.Title">
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:text">@string/loading</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="videoTitles">
+        <item>World Bboy Classic 2013 3vs3</item>
+        <item>WPS Final 2013</item>
+        <item>Pillando Purpos I</item>
+        <item>GTA V OST</item>
+    </string-array>
+
+    <string-array name="videoDescriptions">
+        <item>Bboy championship featuring Luan in a really dope final</item>
+        <item>Pocket will always be the best. Bobby also did it great</item>
+        <item>Gran video Motrileño</item>
+        <item>Best game saga ever</item>
+    </string-array>
+
+    <string-array name="videoUrls">
+        <item>https://www.youtube.com/watch?v=Cg-5lC_KS98</item>
+        <item>https://www.youtube.com/watch?v=_L53V5J8vDM</item>
+        <item>https://www.youtube.com/watch?v=maJLoaOLULo</item>
+        <item>https://www.youtube.com/watch?v=LGL50O1iBY0</item>
+    </string-array>
+
+    <string name="app_name">PrjRenderers</string>
+    <string name="hello">Hello Renderers v2!</string>
+    <string name="loading">Loading</string>
+    <string name="element_clicked">Element %1$s clicked</string>
+    <string name="customer_greeting">Hello my name is %1$s</string>
+    <string name="video_highlighted">%1$s Was highlighted!!</string>
+    <string name="user_highlighted">%1$s highlighted this</string>
+    <string name="dummy_customer">Dummy customer #%1$d</string>
+</resources>

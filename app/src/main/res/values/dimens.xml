@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="row_video_label_margin_top">10dip</dimen>
+    <dimen name="row_video_image_w">96dp</dimen>
+    <dimen name="row_video_image_h">96dp</dimen>
+</resources>
