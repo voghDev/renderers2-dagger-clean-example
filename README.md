@@ -4,7 +4,9 @@ This repository is no longer maintained. Use it for read and research purposes o
 If you want to see Android architectural approaches, have a look at these repos:
 
 [dagger2-clean-mvp-example - Using newer versions of the tools (Java)](https://github.com/voghDev/dagger2-clean-mvp-example)
+
 [ChuckNorrisJokes - Querying an API using a TDD-based approach (Kotlin)](https://github.com/voghDev/ChuckNorrisJokes)
+
 [PlayBattlegrounds - Real case study of consuming PUBG Open API (Kotlin)](https://github.com/voghDev/PlayBattlegrounds)
 
 # Renderers2 Example - Another approach to CLEAN
